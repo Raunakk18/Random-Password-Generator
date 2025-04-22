@@ -138,7 +138,6 @@ body{
     }
     .display img {
         margin-top: 20px;
-        margin-left: 70%;
     }
     
     .container button{
@@ -153,9 +152,7 @@ body{
         margin: 10%;
         width: 90%;
     }
-    .display img {
-        margin-left: 70%;
-    }
+    
     .container button{
         font-size: 16px;
         font-weight: 500;
