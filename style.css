@@ -86,7 +86,7 @@ body{
     font-size: 16px;
     margin-top: 5px;
     font-weight: bold;
-    /* opacity: 0;      */
+    opacity: 0;     
     transition: opacity 0.3s ease;
 }
 
@@ -159,10 +159,10 @@ body{
         gap: 0px;
         margin-left: 0px;
     }
-    /* .display img{
-        width: 20px;
+    .display img{
+        /* width: 20px; */
         margin-left: 0px;   
-    } */
+    }
     
 }
 
