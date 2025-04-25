@@ -120,6 +120,8 @@ body{
     }
     .display{
         height: 100px;
+        width: 100%;
+        padding: 10px 20px;
     }
 
     .container {
@@ -138,12 +140,30 @@ body{
     }
     .display img {
         margin-top: 20px;
+        margin-left: -21px;
     }
     
     .container button{
         font-size: 16px;
         font-weight: 500;
         padding: 10px 20px;
+    }
+    #copy-msg{
+        font-size: 10px;
+        
+    }
+    .copy-container{
+        position: relative;
+        gap: 0px;
+        margin-left: 0px;
+    }
+    #copy-msg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        margin-left: -10px;
     }
 }
 
@@ -157,5 +177,8 @@ body{
         font-size: 16px;
         font-weight: 500;
         padding: 10px 20px;
+    }
+    #copy-msg{
+        font-size: 14px;
     }
 }   
