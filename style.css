@@ -87,7 +87,7 @@ body{
     margin-top: 5px;
     font-weight: bold;
     /* opacity: 0;      */
-    /* transition: opacity 0.3s ease; */
+    transition: opacity 0.3s ease;
 }
 
 #copy-msg.show{
@@ -150,13 +150,19 @@ body{
     }
     #copy-msg{
         font-size: 10px;
-        
+        position: absolute;
+        top: 30px;
+        left: 5px;
     }
     .copy-container{
         position: relative;
         gap: 0px;
         margin-left: 0px;
     }
+    /* .display img{
+        width: 20px;
+        margin-left: 0px;   
+    } */
     
 }
 
